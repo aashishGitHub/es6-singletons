@@ -1,0 +1,11 @@
+'use strict';
+
+var _singleton = require('./singleton');
+
+var _modifier = require('./modifier2');
+
+setInterval(function () {
+    (0, _modifier.double)(_singleton.singletonObject);
+    console.log('I2.5: ' + _singleton.singletonObject.value);
+}, 2500);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9zaW5nbGV0b25HbG9iYWxWYWx1ZUNoYW5nZXIyLmpzIl0sIm5hbWVzIjpbInNldEludGVydmFsIiwiY29uc29sZSIsImxvZyIsInZhbHVlIl0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUNBOztBQUVBQSxZQUFZLFlBQU07QUFDZDtBQUNBQyxZQUFRQyxHQUFSLFlBQXFCLDJCQUFnQkMsS0FBckM7QUFDSCxDQUhELEVBR0ksSUFISiIsImZpbGUiOiJzaW5nbGV0b25HbG9iYWxWYWx1ZUNoYW5nZXIyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtzaW5nbGV0b25PYmplY3R9IGZyb20gJy4vc2luZ2xldG9uJztcbmltcG9ydCB7ZG91YmxlfSBmcm9tICcuL21vZGlmaWVyMic7XG5cbnNldEludGVydmFsKCgpID0+IHtcbiAgICBkb3VibGUoc2luZ2xldG9uT2JqZWN0KTtcbiAgICBjb25zb2xlLmxvZyhgSTIuNTogJHtzaW5nbGV0b25PYmplY3QudmFsdWV9YCk7XG59ICwgMjUwMCkiXX0=
